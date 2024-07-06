@@ -6,28 +6,45 @@ body {
 }
 
 header {
-    background: #333;
+    background: rgba(128, 128, 128, 0.5); /* Colore grigio semitrasparente */
     color: #fff;
-    padding: 1rem 0;
-    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px; /* Larghezza della barra laterale */
+    height: 100%; /* Altezza della barra laterale */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra per definire la barra laterale */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 2rem 0 0; /* Margine per separare la lista dal titolo */
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 10px;
+    margin: 1rem 0;
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    display: block; /* Per rendere il link cliccabile su tutta la larghezza della barra */
+    padding: 0.5rem 1rem;
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.1); /* Effetto hover per migliorare l'interattività */
 }
 
 section {
+    margin-left: 220px; /* Spazio lasciato per la barra laterale */
     padding: 2rem;
 }
 
@@ -51,4 +68,8 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 200px); /* Larghezza del footer meno la larghezza della barra laterale */
+    margin-left: 200px; /* Allineamento del footer con il contenuto */
 }

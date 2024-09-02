@@ -1,82 +1,56 @@
 <!DOCTYPE html>
-<html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Il Mio Portfolio - Musicista e Videomaker</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Il Mio Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#bio">Biografia</a></li>
-                <li><a href="#music">Musica</a></li>
-                <li><a href="#videos">Video</a></li>
-                <li><a href="#contact">Contatti</a></li>
-            </ul>
-        </nav>
-    </header>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <section id="bio">
-        <h2>Biografia</h2>
-        <p>Ciao! Sono [Il Tuo Nome], un musicista e videomaker con una passione per la creazione di contenuti che ispirano e intrattengono. Con anni di esperienza sia nel mondo della musica che in quello della produzione video, mi dedico a portare idee creative alla vita.</p>
-    </section>
+        <!--Icone-->
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
-    <section id="music">
-        <h2>Musica</h2>
-        <div class="media">
-            <div class="media-item">
-                <h3>Album 1</h3>
-                <audio controls>
-                    <source src="path/to/music1.mp3" type="audio/mpeg">
-                    Il tuo browser non supporta l'elemento audio.
-                </audio>
-            </div>
-            <div class="media-item">
-                <h3>Album 2</h3>
-                <audio controls>
-                    <source src="path/to/music2.mp3" type="audio/mpeg">
-                    Il tuo browser non supporta l'elemento audio.
-                </audio>
-            </div>
+        <!--css file-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Attila</title>
+    </head>
+    <body>
+        <!--Bar-->
+        <div class="nav" id="nav">
+            <nav class="nav__content">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-chevron-right' ></i>
+                </div>
+    
+                <a href="#" class="nav__logo">
+                    <i class='bx bxs-music'></i>
+                    <span class="nav__logo-name">Porfolio</span>
+                </a>
+    
+                <div class="nav__list">
+
+                    <a href="#" class="nav__link active-link">
+                        <i class='bx bx-paper-plane' ></i>
+                        <span class="nav__name">Messages</span>
+                    </a>
+    
+                    <a href="#" class="nav__link">
+                        <i class='bx bxs-archive' ></i>
+                        <span class="nav__name">Project</span>
+                    </a>
+    
+                    <a href="#" class="nav__link">
+                        <i class='bx bxs-archive' ></i>
+                        <span class="nav__name">Big Project</span>
+                    </a>
+                </div>
+            </nav>
         </div>
-    </section>
 
-    <section id="videos">
-        <h2>Video</h2>
-        <div class="media">
-            <div class="media-item">
-                <h3>Video 1</h3>
-                <video controls>
-                    <source src="path/to/video1.mp4" type="video/mp4">
-                    Il tuo browser non supporta l'elemento video.
-                </video>
-            </div>
-            <div class="media-item">
-                <h3>Video 2</h3>
-                <video controls>
-                    <source src="path/to/video2.mp4" type="video/mp4">
-                    Il tuo browser non supporta l'elemento video.
-                </video>
-            </div>
-        </div>
-    </section>
+        <!--main-->
+        <main class="container section">
+            <h1>Attila</h1>
+        </main>
 
-    <section id="contact">
-        <h2>Contatti</h2>
-        <p>Puoi contattarmi tramite email a: <a href="mailto:tuoemail@example.com">tuoemail@example.com</a></p>
-        <p>Seguimi sui social media:</p>
-        <ul>
-            <li><a href="https://www.facebook.com/tuoprofilo" target="_blank">Facebook</a></li>
-            <li><a href="https://www.instagram.com/tuoprofilo" target="_blank">Instagram</a></li>
-            <li><a href="https://www.youtube.com/tuocanale" target="_blank">YouTube</a></li>
-        </ul>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 [Il Tuo Nome]. Tutti i diritti riservati.</p>
-    </footer>
-</body>
+        <!--file js-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>

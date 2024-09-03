@@ -43,7 +43,17 @@ h1 {
 a {
   text-decoration: none;
 }
+.main {
+  position: relative;
+  z-index: 500; /* Posiziona il contenuto dietro la sidebar */
+  transition: .3s margin-left; /* Transizione per l'effetto di scorrimento */
+  margin-left: 0; /* Margine iniziale quando la sidebar è chiusa */
+}
 
+/* Quando la sidebar è espansa, sposta il contenuto a destra */
+.nav.show-menu ~ .main {
+  margin-left: 255px;
+}
 /*Bar*/
 .container {
   margin-left: 1rem;
@@ -129,7 +139,10 @@ a {
     height: 100vh;
     padding: 2rem;
     transition: .3s;
-  }
+    z-index: 1000; /* Posiziona la sidebar sopra il contenuto */
+    transition: .3s width; /* Transizione della larghezza quando si espande */
+}
+  
   .nav__logo {
     display: flex;
   }
@@ -169,7 +182,6 @@ a {
     cursor: pointer;
     transition: .4s;
   }
-}
 
 /* Show menu desktop */
 .show-menu {
@@ -192,4 +204,55 @@ a {
   body {
     zoom: 2.5;
   }
+}
+
+/* Stile di base per il contenitore */
+.home__container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Mantiene l'immagine a sinistra su desktop */
+  position: relative;
+  gap: 20px; /* Riduce lo spazio tra l'immagine e il testo */
+}
+
+/* Stile per l'immagine */
+.home__img {
+  max-width: 40%; /* Limita la larghezza dell'immagine su desktop */
+  height: auto;
+  border-radius: 15px; /* Arrotonda uniformemente tutti i bordi dell'immagine */
+  object-fit: cover; /* Assicura che l'immagine si adatti bene al contenitore */
+}
+/* Stile per i dati (nome e professione) */
+.home__data {
+  max-width: 55%; /* Limita la larghezza del contenitore di testo */
+  position: relative;
+  top: -120px; /* Sposta il testo un po' più in alto su desktop */
+  margin-left: -5px; /* Avvicina il testo all'immagine */
+}
+
+/* Stile per mobile */
+@media (max-width: 767px) {
+  .home__container {
+      flex-direction: column; /* Dispone il contenuto in colonna su mobile */
+      align-items: center; /* Centra tutto orizzontalmente */
+      text-align: center; /* Centra il testo */
+  }
+
+  .home__img {
+    max-width: 100%; /* L'immagine occupa tutta la larghezza disponibile su mobile */
+    position: relative;
+    border-radius: 15px; /* Arrotonda uniformemente tutti i bordi dell'immagine anche su mobile */
+    object-fit: cover; /* Assicura che l'immagine si adatti bene al contenitore */
+
+}
+
+  .home__data {
+      position: absolute; /* Posiziona il testo in sovraimpressione sull'immagine */
+      top: 50%; /* Centra verticalmente il testo */
+      left: 50%; /* Centra orizzontalmente il testo */
+      transform: translate(-50%, -50%); /* Trasforma l'origine del posizionamento */
+      color: white; /* Cambia il colore del testo per essere visibile sull'immagine */
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Aggiunge un'ombra al testo per migliorare la leggibilità */
+  } 
+}
 }

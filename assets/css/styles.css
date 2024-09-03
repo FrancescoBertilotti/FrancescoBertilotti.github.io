@@ -123,7 +123,9 @@ a {
   .nav__list {
     width: 332px;
   }
+  
 }
+
 
 @media screen and (min-width: 767px) {
   .container {
@@ -182,7 +184,8 @@ a {
     cursor: pointer;
     transition: .4s;
   }
-
+  
+}
 /* Show menu desktop */
 .show-menu {
   width: 255px;
@@ -219,9 +222,9 @@ a {
 .home__img {
   max-width: 40%; /* Limita la larghezza dell'immagine su desktop */
   height: auto;
-  border-radius: 15px; /* Arrotonda uniformemente tutti i bordi dell'immagine */
-  object-fit: cover; /* Assicura che l'immagine si adatti bene al contenitore */
+  border-radius: 15px; /* Arrotonda i bordi dell'immagine */
 }
+
 /* Stile per i dati (nome e professione) */
 .home__data {
   max-width: 55%; /* Limita la larghezza del contenitore di testo */
@@ -230,21 +233,18 @@ a {
   margin-left: -5px; /* Avvicina il testo all'immagine */
 }
 
-/* Stile per mobile */
 @media (max-width: 767px) {
   .home__container {
       flex-direction: column; /* Dispone il contenuto in colonna su mobile */
       align-items: center; /* Centra tutto orizzontalmente */
       text-align: center; /* Centra il testo */
+      position: relative; /* Assicurati che il contenitore abbia una posizione relativa */
   }
 
   .home__img {
-    max-width: 100%; /* L'immagine occupa tutta la larghezza disponibile su mobile */
-    position: relative;
-    border-radius: 15px; /* Arrotonda uniformemente tutti i bordi dell'immagine anche su mobile */
-    object-fit: cover; /* Assicura che l'immagine si adatti bene al contenitore */
-
-}
+      max-width: 100%; /* L'immagine occupa tutta la larghezza disponibile su mobile */
+      border-radius: 15px; /* Arrotonda i bordi dell'immagine anche su mobile */
+  }
 
   .home__data {
       position: absolute; /* Posiziona il testo in sovraimpressione sull'immagine */
@@ -253,6 +253,7 @@ a {
       transform: translate(-50%, -50%); /* Trasforma l'origine del posizionamento */
       color: white; /* Cambia il colore del testo per essere visibile sull'immagine */
       text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Aggiunge un'ombra al testo per migliorare la leggibilità */
-  } 
-}
+      width: 100%; /* Assicura che il testo non esca dai bordi dell'immagine */
+      padding: 1rem; /* Aggiungi un po' di spazio intorno al testo per migliorare la leggibilità */
+  }
 }

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on Attila Pages</title>
+    <link>//localhost:1313/authors/</link>
+    <description>Recent content in Authors on Attila Pages</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>attilafr505@gmail.com (Attila)</managingEditor>
+    <webMaster>attilafr505@gmail.com (Attila)</webMaster>
+    <copyright>© 2025 Attila</copyright>
+    <atom:link href="//localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
+    
+  </channel>
+</rss>

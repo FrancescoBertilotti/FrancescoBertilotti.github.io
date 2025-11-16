@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on Attila Pages</title>
-    <link>//localhost:1313/tags/hugo/</link>
+    <link>http://localhost:1313/tags/hugo/</link>
     <description>Recent content in Hugo on Attila Pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>attilafr505@gmail.com (Attila)</managingEditor>
     <webMaster>attilafr505@gmail.com (Attila)</webMaster>
     <copyright>© 2025 Attila</copyright>
-    <atom:link href="//localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Making of this Website</title>
-      <link>//localhost:1313/posts/making-of-this-website/</link>
+      <link>http://localhost:1313/posts/making-of-this-website/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>attilafr505@gmail.com (Attila)</author>
-      <guid>//localhost:1313/posts/making-of-this-website/</guid>
+      <guid>http://localhost:1313/posts/making-of-this-website/</guid>
       <description></description>
       
     </item>

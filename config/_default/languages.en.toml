@@ -9,7 +9,7 @@ title = "Attila Pages"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  # logo = "img/logo.png"
+  # logo = "assets\logo.png"
   # secondaryLogo = "img/secondary-logo.png"
   # description = "My awesome website"
   # copyright = "Copy, _right?_ :thinking_face:"
@@ -17,7 +17,7 @@ title = "Attila Pages"
  [params.author]
    name = "Attila"
    email = "attilafr505@gmail.com"
-  # image = "img/logo.png"
+   image = "img/logo.png"
    imageQuality = 96
    headline = "I Make Things"
    bio = "A little bit about you"

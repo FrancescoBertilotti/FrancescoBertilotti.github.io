@@ -3,6 +3,7 @@ title: Making of this Website
 categories: ["code"] 
 tags: ["site", "portfolio", "hugo"]
 params.dateFormat: ["13 November 2025"]
+date: 2025-11-15
 ---  
 ## Introduction   
 I built this place using Hugo, to share my projects, experiments, and whatever cool things I’m working on from music and sound design to electronics, coding, and random ideas.   

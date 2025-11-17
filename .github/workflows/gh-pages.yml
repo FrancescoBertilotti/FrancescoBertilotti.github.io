@@ -77,6 +77,12 @@ jobs:
           key: hugo-${{ github.run_id }}
           restore-keys:
             hugo-
+
+      - name: Show Hugo colorScheme
+        run: |
+          echo "=== Hugo config (params.colorScheme) ==="
+          hugo config params | grep -i colorScheme -n || echo "Nessun colorScheme trovato"
+     
       - name: Build the site
         run: |
           hugo \

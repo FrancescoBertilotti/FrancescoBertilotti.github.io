@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Attila Pages</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Attila Pages</description>
+    <title>Music on Attila Pages</title>
+    <link>http://localhost:1313/tags/music/</link>
+    <description>Recent content in Music on Attila Pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>attilafr505@gmail.com (Attila)</managingEditor>
     <webMaster>attilafr505@gmail.com (Attila)</webMaster>
     <copyright>© 2025 Attila</copyright>
-    <lastBuildDate>Wed, 26 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/music/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>The world will end with sound design</title>
@@ -17,16 +17,6 @@
       <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
       <author>attilafr505@gmail.com (Attila)</author>
       <guid>http://localhost:1313/posts/the-world-will-end-with-sound-design-eng/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Making of this Website</title>
-      <link>http://localhost:1313/posts/making-of-this-website/</link>
-      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-      <author>attilafr505@gmail.com (Attila)</author>
-      <guid>http://localhost:1313/posts/making-of-this-website/</guid>
       <description></description>
       
     </item>

@@ -9,12 +9,42 @@
     <managingEditor>attilafr505@gmail.com (Attila)</managingEditor>
     <webMaster>attilafr505@gmail.com (Attila)</webMaster>
     <copyright>© 2025 Attila</copyright>
-    <lastBuildDate>Mon, 17 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ep</title>
+      <link>http://localhost:1313/tags/ep/</link>
+      <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
+      <author>attilafr505@gmail.com (Attila)</author>
+      <guid>http://localhost:1313/tags/ep/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Music</title>
+      <link>http://localhost:1313/tags/music/</link>
+      <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
+      <author>attilafr505@gmail.com (Attila)</author>
+      <guid>http://localhost:1313/tags/music/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Soundcloud</title>
+      <link>http://localhost:1313/tags/soundcloud/</link>
+      <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
+      <author>attilafr505@gmail.com (Attila)</author>
+      <guid>http://localhost:1313/tags/soundcloud/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Hugo</title>
       <link>http://localhost:1313/tags/hugo/</link>
-      <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
       <author>attilafr505@gmail.com (Attila)</author>
       <guid>http://localhost:1313/tags/hugo/</guid>
       <description></description>
@@ -24,7 +54,7 @@
     <item>
       <title>Portfolio</title>
       <link>http://localhost:1313/tags/portfolio/</link>
-      <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
       <author>attilafr505@gmail.com (Attila)</author>
       <guid>http://localhost:1313/tags/portfolio/</guid>
       <description></description>
@@ -34,7 +64,7 @@
     <item>
       <title>Site</title>
       <link>http://localhost:1313/tags/site/</link>
-      <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
       <author>attilafr505@gmail.com (Attila)</author>
       <guid>http://localhost:1313/tags/site/</guid>
       <description></description>

@@ -3,7 +3,7 @@ title: The world will end with sound design
 categories: ["Music"] 
 tags: ["music", "ep", "soundcloud"]
 params.dateFormat: ["26 November 2025"]
-date: 2025-11-26
+date: 2025-11-28
 ---
 
 {{< alert "soundcloud" >}}

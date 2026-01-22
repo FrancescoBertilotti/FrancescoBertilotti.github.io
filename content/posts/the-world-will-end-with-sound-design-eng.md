@@ -6,9 +6,14 @@ params.dateFormat: ["26 November 2025"]
 date: 2025-11-28
 ---
 
-{{< alert "soundcloud" >}}
-Don't forget to [Listen to the ep](https://on.soundcloud.com/WwuXMyEXxjtCn1LW81) on SoundCloud.
-{{< /alert >}} 
+
+
+<div class="relative w-full overflow-hidden rounded-xl shadow-lg my-8">
+  <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/attila-640056076/sets/the-world-will-end-with-sound&color=%230bd4bc&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+</div>
+
+
+ 
 
 ### Introduction   
 There is a folder on my PC that I have been filling up for some time. Inside, there are no "songs" in the classic sense, but attempts, mistakes, and late-night sessions spent creating a single sound.   

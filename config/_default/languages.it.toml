@@ -1,0 +1,29 @@
+disabled = false
+languageCode = "it"
+languageName = "Italiano"
+weight = 2
+title = "Attila Pages"
+
+[params]
+  displayName = "IT"
+  isoCode = "it"
+  rtl = false
+  dateFormat = "2 Gennaio 2006"
+  # logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  # description = "Il mio fantastico sito web"
+  # copyright = "Copy, _right?_ :thinking_face:"
+
+ [params.author]
+   name = "Attila"
+   email = "attilafr505@gmail.com"
+   image = "img/logo.png"
+   imageQuality = 96
+   headline = "I Make Things"
+   bio = "Sound designer & Producer"
+   links = [
+     { email = "attilafr505@gmail.com" },
+     { discord = "https://discord.gg/YHrhYh6q" },
+     { instagram = "https://www.instagram.com/francesco.bertilotiii?igsh=MWRwYWFrdWowNm00bw==" },
+     { soundcloud = "https://soundcloud.com/attila-640056076" },
+   ]

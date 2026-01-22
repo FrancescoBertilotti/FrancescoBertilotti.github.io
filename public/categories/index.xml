@@ -8,15 +8,15 @@
     <language>en</language>
     <managingEditor>attilafr505@gmail.com (Attila)</managingEditor>
     <webMaster>attilafr505@gmail.com (Attila)</webMaster>
-    <copyright>© 2025 Attila</copyright>
-    <lastBuildDate>Wed, 26 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2026 Attila</copyright>
+    <lastBuildDate>Thu, 22 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Music</title>
-      <link>http://localhost:1313/categories/music/</link>
-      <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
+      <title>AI</title>
+      <link>http://localhost:1313/categories/ai/</link>
+      <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
       <author>attilafr505@gmail.com (Attila)</author>
-      <guid>http://localhost:1313/categories/music/</guid>
+      <guid>http://localhost:1313/categories/ai/</guid>
       <description></description>
       
     </item>
@@ -24,9 +24,19 @@
     <item>
       <title>Code</title>
       <link>http://localhost:1313/categories/code/</link>
-      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
       <author>attilafr505@gmail.com (Attila)</author>
       <guid>http://localhost:1313/categories/code/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Music</title>
+      <link>http://localhost:1313/categories/music/</link>
+      <pubDate>Fri, 28 Nov 2025 00:00:00 +0000</pubDate>
+      <author>attilafr505@gmail.com (Attila)</author>
+      <guid>http://localhost:1313/categories/music/</guid>
       <description></description>
       
     </item>

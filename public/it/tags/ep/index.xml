@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ep on Attila Pages</title>
+    <link>http://localhost:1313/it/tags/ep/</link>
+    <description>Recent content in Ep on Attila Pages</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it</language>
+    <managingEditor>attilafr505@gmail.com (Attila)</managingEditor>
+    <webMaster>attilafr505@gmail.com (Attila)</webMaster>
+    <copyright>© 2026 Attila</copyright>
+    <lastBuildDate>Fri, 28 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/it/tags/ep/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Il mondo finirà con il sound design</title>
+      <link>http://localhost:1313/it/posts/the-world-will-end-with-sound-design-eng/</link>
+      <pubDate>Fri, 28 Nov 2025 00:00:00 +0000</pubDate>
+      <author>attilafr505@gmail.com (Attila)</author>
+      <guid>http://localhost:1313/it/posts/the-world-will-end-with-sound-design-eng/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -3,83 +3,95 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://francescobertilotti.github.io/appunti/</loc>
+    <lastmod>2026-01-24T11:34:26+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://francescobertilotti.github.io/</loc>
     <lastmod>2026-01-24T11:34:26+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="it"
-      href="http://localhost:1313/it/"
+      href="https://francescobertilotti.github.io/it/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/"
+      href="https://francescobertilotti.github.io/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://francescobertilotti.github.io/posts/</loc>
     <lastmod>2026-01-22T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="it"
-      href="http://localhost:1313/it/posts/"
+      href="https://francescobertilotti.github.io/it/posts/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/posts/"
+      href="https://francescobertilotti.github.io/posts/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/posts/building-with-antigravity/</loc>
+    <loc>https://francescobertilotti.github.io/posts/building-with-antigravity/</loc>
     <lastmod>2026-01-22T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="it"
-      href="http://localhost:1313/it/posts/building-with-antigravity/"
+      href="https://francescobertilotti.github.io/it/posts/building-with-antigravity/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/posts/building-with-antigravity/"
+      href="https://francescobertilotti.github.io/posts/building-with-antigravity/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/posts/the-world-will-end-with-sound-design-eng/</loc>
+    <loc>https://francescobertilotti.github.io/posts/the-world-will-end-with-sound-design-eng/</loc>
     <lastmod>2025-11-28T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="it"
-      href="http://localhost:1313/it/posts/the-world-will-end-with-sound-design-eng/"
+      href="https://francescobertilotti.github.io/it/posts/the-world-will-end-with-sound-design-eng/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/posts/the-world-will-end-with-sound-design-eng/"
+      href="https://francescobertilotti.github.io/posts/the-world-will-end-with-sound-design-eng/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/posts/making-of-this-website/</loc>
+    <loc>https://francescobertilotti.github.io/posts/making-of-this-website/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="it"
-      href="http://localhost:1313/it/posts/making-of-this-website/"
+      href="https://francescobertilotti.github.io/it/posts/making-of-this-website/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/posts/making-of-this-website/"
+      href="https://francescobertilotti.github.io/posts/making-of-this-website/"
     />
+  </url>
+  <url>
+    <loc>https://francescobertilotti.github.io/appunti/test-note/</loc>
+    <lastmod>2024-01-24T12:00:00+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>

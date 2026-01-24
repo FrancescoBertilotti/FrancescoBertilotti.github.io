@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Attila Pages</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://francescobertilotti.github.io/categories/</link>
     <description>Recent content in Categories on Attila Pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>attilafr505@gmail.com (Attila)</managingEditor>
     <webMaster>attilafr505@gmail.com (Attila)</webMaster>
     <copyright>© 2026 Attila</copyright>
-    <lastBuildDate>Thu, 22 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://francescobertilotti.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>AI</title>
-      <link>http://localhost:1313/categories/ai/</link>
+      <link>https://francescobertilotti.github.io/categories/ai/</link>
       <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
       <author>attilafr505@gmail.com (Attila)</author>
-      <guid>http://localhost:1313/categories/ai/</guid>
+      <guid>https://francescobertilotti.github.io/categories/ai/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Code</title>
-      <link>http://localhost:1313/categories/code/</link>
+      <link>https://francescobertilotti.github.io/categories/code/</link>
       <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
       <author>attilafr505@gmail.com (Attila)</author>
-      <guid>http://localhost:1313/categories/code/</guid>
+      <guid>https://francescobertilotti.github.io/categories/code/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Music</title>
-      <link>http://localhost:1313/categories/music/</link>
+      <link>https://francescobertilotti.github.io/categories/music/</link>
       <pubDate>Fri, 28 Nov 2025 00:00:00 +0000</pubDate>
       <author>attilafr505@gmail.com (Attila)</author>
-      <guid>http://localhost:1313/categories/music/</guid>
+      <guid>https://francescobertilotti.github.io/categories/music/</guid>
       <description></description>
       
     </item>
